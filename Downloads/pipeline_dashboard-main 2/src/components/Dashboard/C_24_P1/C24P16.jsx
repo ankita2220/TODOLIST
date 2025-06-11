@@ -270,7 +270,6 @@ function C24P16() {
           <tbody>
             {equipmentData.map((item, index) => (
               <tr key={index}>
-                
                 <td className="border p-2">{item.name}</td>
                 <td className="border p-2">{item.type}</td>
                 <td className="border p-2">{item.MD}</td>

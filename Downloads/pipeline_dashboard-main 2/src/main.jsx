@@ -124,11 +124,16 @@ const router = createBrowserRouter(
       <Route path='/b-12-1-4' element={<B121_4/>} /> */}
 
     </Route>
-  )
-)
+  ),
+  {
+    basename: '/pipeline_dashboard',
+  }
+
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+
   </StrictMode>,
 )
